@@ -1,0 +1,79 @@
+.login .login-content .description:before {
+	content: "Ste že član skupnosti Moja zemlja? \A Prijavite se v svoj uporabniški račun.";
+}
+
+.register-content .description:before {
+	content: "Nov član? Ustvarite svoj uporabniški račun in izkoristite prednosti.";
+}
+
+.manage-account__formgroup .input-profile-container-mode .input-label:nth-child(3) .profile,
+.manage-account__formgroup .formgroup__container-content .formgroup__container-content-form .input-profile-container .input-label:nth-of-type(3) {
+	font-size: 0 !important;
+}
+
+.manage-account__formgroup .input-profile-container-mode .input-label:nth-child(3) .profile:before,
+.manage-account__formgroup .formgroup__container-content .formgroup__container-content-form .input-profile-container .input-label:nth-of-type(3):before {
+	font-size: $font-size-12 !important;
+	content: "Telefonska številka";
+}
+
+.cancel-text {
+	font-size: 0 !important;
+}
+.cancel-text:before {
+	content: "X";
+	font-size: 1.6rem;
+}
+
+.manage-account upscale-formgroup-input-container:nth-of-type(2) .formgroup__container .formgroup__container-header {
+	font-size: 0 !important;
+}
+
+.manage-account upscale-formgroup-input-container:nth-of-type(2) .formgroup__container .formgroup__container-header:before {
+	content: "Uporabniški profil";
+	font-size: $font-size-20;
+}
+
+.product-detail-content .outOfStock:before {
+	content: "Ni na zalogi";
+	font-size: $font-size-20;
+}
+.product-detail-content .outOfStock {
+	color: var(--cx-color-red) !important;
+	font-size: 0 !important;
+}
+
+upscale-template[data-name="Svetovanje"] upscale-breadcrumbs .breadcrumbs__text {
+    font-size: 0 !important;
+}
+upscale-template[data-name="Svetovanje"] upscale-breadcrumbs .breadcrumbs__text:before {
+	content: "Svetovanje";
+	font-size: $font-size-13;
+}
+
+upscale-browse .breadcrumbs .breadcrumb:nth-of-type(2){
+	font-size: 0;
+}
+
+upscale-browse .breadcrumbs .breadcrumb:nth-of-type(2):before {
+	font-size: $font-size-13;
+	content: "Seznam";
+}
+
+.formgroup-input-container .formgroup__container-content-form.ng-valid .shipping-address-list .selected-ship-address .actions .action-button {
+	font-size: 0 !important;
+}
+
+.formgroup-input-container .formgroup__container-content-form.ng-valid .shipping-address-list .selected-ship-address .actions .action-button:before {
+	content: "Izberi drug naslov";
+	font-size: $font-size-14;
+}
+
+upscale-manage-account .content .manage-account upscale-attribute-set .body .body-content upscale-attribute-set-date-time-picker .column .date-picker-input-wrapper .date-picker-input-wrapper-actions .cancel {
+	font-size: 0 !important;
+}
+
+upscale-manage-account .content .manage-account upscale-attribute-set .body .body-content upscale-attribute-set-date-time-picker .column .date-picker-input-wrapper .date-picker-input-wrapper-actions .cancel:before {
+	font-size: $font-size-12;
+	content: "Prekliči";
+}
